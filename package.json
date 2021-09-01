@@ -1,0 +1,43 @@
+{
+	"name": "es-string-html-methods",
+	"version": "0.0.0",
+	"description": "An ES-spec-compliant shim/polyfill/replacement for the Annex B String.prototype HTML methods that works as far down as ES3",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/es-shims/es-string-html-methods.git"
+	},
+	"keywords": [
+		"ecmascript",
+		"javascript",
+		"string",
+		"string.prototype",
+		"html",
+		"anchor",
+		"big",
+		"blink",
+		"bold",
+		"fixed",
+		"fontcolor",
+		"fontsize",
+		"italics",
+		"link",
+		"small",
+		"strike",
+		"sub",
+		"sup"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/es-shims/es-string-html-methods/issues"
+	},
+	"homepage": "https://github.com/es-shims/es-string-html-methods#readme"
+}
