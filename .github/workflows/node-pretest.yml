@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 'lts/*'
       - run: npm run pretest
-      - uses: codecov/codecov-action@v1 # for `npm run postlint`
+      - uses: codecov/codecov-action@v2 # for `npm run postlint`
 
   posttest:
     runs-on: ubuntu-latest
