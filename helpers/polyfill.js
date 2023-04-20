@@ -4,9 +4,10 @@ var Call = require('es-abstract/2022/Call');
 
 var callBound = require('call-bind/callBound');
 
-var $concat = callBound('Array.prototype.concat');
 var $match = callBound('String.prototype.match');
 var $toLowerCase = callBound('String.prototype.toLowerCase');
+
+var safeConcat = require('safe-array-concat');
 
 module.exports = function polyfillHelper(property, implementation) {
 	return function polyfill() {
@@ -15,7 +16,7 @@ module.exports = function polyfillHelper(property, implementation) {
 			return implementation;
 		}
 		var output = Call(method, '', [' " ']);
-		var quotesCount = $concat([], $match(output, /"/g)).length;
+		var quotesCount = safeConcat($match(output, /"/g)).length;
 		if (output !== $toLowerCase(output) || quotesCount > 2) {
 			return implementation;
 		}
