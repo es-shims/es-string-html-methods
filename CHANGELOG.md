@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/es-shims/es-string-html-methods/compare/v1.0.1...v1.0.2) - 2023-04-20
+
+### Commits
+
+- [meta] use `npmignore` to autogenerate an npmignore file [`bf1bc9a`](https://github.com/es-shims/es-string-html-methods/commit/bf1bc9a71cfd6093c3664309e806d36a32035a78)
+- [Deps] update `define-properties`, `es-abstract`` [`023eb56`](https://github.com/es-shims/es-string-html-methods/commit/023eb564a8eef89751ce618f62395b61934a8ef0)
+- [actions] update rebase action to use reusable workflow [`a8f330f`](https://github.com/es-shims/es-string-html-methods/commit/a8f330ff19fdc20549d83cb436b5c2fef71e7061)
+- [actions] update checkout action [`136a4c0`](https://github.com/es-shims/es-string-html-methods/commit/136a4c05d92b265e3a8a547540c1dd6e20657479)
+- [Refactor] use `safe-array-concat` [`1d191bc`](https://github.com/es-shims/es-string-html-methods/commit/1d191bc8bb445ab710a822fc391009270daae3fa)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `aud`, `tape` [`5dac2b5`](https://github.com/es-shims/es-string-html-methods/commit/5dac2b5e6eda5568c12ecf92661c91c5ceaac6ed)
+- [Dev Deps] update `@ljharb/eslint-config`, `aud`, `functions-have-names`, `tape` [`6b408b4`](https://github.com/es-shims/es-string-html-methods/commit/6b408b44799e250745d05f32d0f09eba91e2a56e)
+- [Deps] update `define-properties`, `es-abstract` [`ac442e3`](https://github.com/es-shims/es-string-html-methods/commit/ac442e3fb8c74588761166bca23fd31c47e4c384)
+- [Dev Deps] fix `eslint` dep [`ab73d55`](https://github.com/es-shims/es-string-html-methods/commit/ab73d55c5f01cc12da7e3dc4ec0ca0d09eaaf44e)
+
 ## [v1.0.1](https://github.com/es-shims/es-string-html-methods/compare/v1.0.0...v1.0.1) - 2022-04-09
 
 ### Commits
