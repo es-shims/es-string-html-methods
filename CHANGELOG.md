@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/es-string-html-methods/compare/v1.0.2...v1.0.3) - 2023-08-28
+
+### Commits
+
+- [Deps] update `es-abstract` [`b74ac98`](https://github.com/es-shims/es-string-html-methods/commit/b74ac98c9124b106fca2cf2887ae9c2f1e7e106c)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `aud`, `tape` [`0046d07`](https://github.com/es-shims/es-string-html-methods/commit/0046d0764f2de5c3c58e99c4735f0a1dbaa8ab70)
+
 ## [v1.0.2](https://github.com/es-shims/es-string-html-methods/compare/v1.0.1...v1.0.2) - 2023-04-20
 
 ### Commits
