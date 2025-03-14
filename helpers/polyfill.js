@@ -1,6 +1,6 @@
 'use strict';
 
-var Call = require('es-abstract/2023/Call');
+var Call = require('es-abstract/2024/Call');
 
 var callBound = require('call-bind/callBound');
 
