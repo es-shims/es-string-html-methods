@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.4](https://github.com/es-shims/es-string-html-methods/compare/v1.0.3...v1.0.4) - 2025-03-14
+
+### Commits
+
+- [Deps] update `call-bind`, `define-properties`, `es-abstract`, `safe-array-concat` [`0877d8d`](https://github.com/es-shims/es-string-html-methods/commit/0877d8dea66253c4554ac3ecc6ce52aa1ca92f5d)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `auto-changelog`, `for-each`, `has-strict-mode`, `npmignore`, `tape` [`00d18d0`](https://github.com/es-shims/es-string-html-methods/commit/00d18d08fb0e3a1cc3e66996cd737f61e95c57ed)
+- [Refactor] use `call-bound` directly [`95cabd3`](https://github.com/es-shims/es-string-html-methods/commit/95cabd3ec1fa5b0336022e6c2a040721e4b52ddb)
+- [Tests] replace `aud` with `npm audit` [`851c854`](https://github.com/es-shims/es-string-html-methods/commit/851c8547dde2bc0e426ce256291e486bb6d2a191)
+- [Dev Deps] add missing peer dep [`6825251`](https://github.com/es-shims/es-string-html-methods/commit/68252514199958de8703171c2d7ff4cdc3b1ddfd)
+
 ## [v1.0.3](https://github.com/es-shims/es-string-html-methods/compare/v1.0.2...v1.0.3) - 2023-08-28
 
 ### Commits
