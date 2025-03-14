@@ -2,7 +2,7 @@
 
 var Call = require('es-abstract/2024/Call');
 
-var callBound = require('call-bind/callBound');
+var callBound = require('call-bound');
 
 var $match = callBound('String.prototype.match');
 var $toLowerCase = callBound('String.prototype.toLowerCase');
